@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://securekeeper.io/saml2/spid/metadata" ID="pfxdbf29fc5-b11b-4fcf-99d6-eb6043d5f0cc"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxdbf29fc5-b11b-4fcf-99d6-eb6043d5f0cc"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/NQvfjaWPxPVTVKZEIE1mEUBkkL04hZQ4KqR4qr0Yx0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LbhAL1YT3ftR87qpn6U1VZGXr3xFxaWbDTU2E1A+Ru2cr6ZLMqt++ORzKXWmNmy054gI24oHXbLL5ivWeVGQV4B9eXGg8suphYQSxmZ2t+oOayY6k+TtTLQpgp3CNxb96LKGcHnykCLD206lFZNFBsboGi6pR9eY/hByzsC3Kq1kanRjHG/if3YZXNPjdtA6o+91nsSBaqTX6EQsv0Ku8TTYTUmR23m+EvYwPUIE+pHwAP4z/cXEwKxX4srBEfnUvEBpFJizq2BtCUNX0f4uNVYO+ddWgeERCahkYh0LInxPGo/B1FuE6XWmnSgLkYI/XkLS7TI0R1Ayrwg6xp1v+g==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEQjCCAyqgAwIBAgIJAI/m4QBI1dsxMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTETMBEGA1UECgwKQWNjZXNzNEFsbDEVMBMGA1UECwwMU2VjdXJlS2VlcGVyMRUwEwYDVQQDDAxTZWN1cmVLZWVwZXIxGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMSAwHgYDVQRTDBdodHRwczovL3NlY3VyZWtlZXBlci5pbzAeFw0yNjAxMTMwODIwNDdaFw0yNzAxMTMwODIwNDdaMIGsMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTETMBEGA1UECgwKQWNjZXNzNEFsbDEVMBMGA1UECwwMU2VjdXJlS2VlcGVyMRUwEwYDVQQDDAxTZWN1cmVLZWVwZXIxGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMSAwHgYDVQRTDBdodHRwczovL3NlY3VyZWtlZXBlci5pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALWz7H1sv9QVNxUzj5eZMcsBq5z8TIctF39xGQOEML00CnNcbGaiiHXclVdhkeEmUKkRre9w9r2eHJoaVRbl2x2L255L2u5vtzZrwV/Gsjb5y510zpDQ6tHT5Ge7keF5kJoJRE0pjvOY8Kpuq/Xd/G8d5K7HmM0riopwbnhweAv68jMcJ0VaVYGt3w07NZdRii1x+d8kgV//d1KI1SUCCOyqrzwQBLcRn47pOy3BwBp04oGynpr2fEeEf/42JTOBKA1JoSgcCQdIw5Z38Qa5olgVLXqbp2vvR5Vdy0h5jtYKEMYin0zcXAmBevZTHzq50Drow4Loxc8q2s6pXhuLzEcCAwEAAaNlMGMwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBeAwMAYDVR0RBCkwJ4YlaHR0cHM6Ly9zZWN1cmVrZWVwZXIuaW8vc3BpZC9tZXRhZGF0YTARBgNVHSAECjAIMAYGBCtMEAYwDQYJKoZIhvcNAQELBQADggEBAHCfDJ31Ljh8SXIZ3e32Zx3EwgncODtUn1NNwB0WKOJ/e/F0Js3s8rHIglkxQH3m2FDL+iEiAWZ2Em8kXDIDNNyYdpteJ8DZ1SXCYeRDhJJnvQT9If20KndCz//ODf9pqjhmxeQSMSOUwBPWPLjSnaTypTpc+Ju5voT0/y1nQ1JgoHYsryCmoXNej+ajR3LpRLY6VYWEswnEeAu0M4yEbemr3k4VZpMtDfaQsev9/c6NP+PIyQLihe15tK896sTH/s/Gc/gTsfzORvnQJqMQMqt9lifxar6oGI0NycP8ELUwwYDWtZ03xv6qK1TY+R6SOVaj7OLk+weRx0o9SZ7lAPU=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEQjCCAyqgAwIBAgIJAI/m4QBI1dsxMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTETMBEGA1UECgwKQWNjZXNzNEFsbDEVMBMGA1UECwwMU2VjdXJlS2VlcGVyMRUwEwYDVQQDDAxTZWN1cmVLZWVwZXIxGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMSAwHgYDVQRTDBdodHRwczovL3NlY3VyZWtlZXBlci5pbzAeFw0yNjAxMTMwODIwNDdaFw0yNzAxMTMwODIwNDdaMIGsMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTETMBEGA1UECgwKQWNjZXNzNEFsbDEVMBMGA1UECwwMU2VjdXJlS2VlcGVyMRUwEwYDVQQDDAxTZWN1cmVLZWVwZXIxGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMSAwHgYDVQRTDBdodHRwczovL3NlY3VyZWtlZXBlci5pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALWz7H1sv9QVNxUzj5eZMcsBq5z8TIctF39xGQOEML00CnNcbGaiiHXclVdhkeEmUKkRre9w9r2eHJoaVRbl2x2L255L2u5vtzZrwV/Gsjb5y510zpDQ6tHT5Ge7keF5kJoJRE0pjvOY8Kpuq/Xd/G8d5K7HmM0riopwbnhweAv68jMcJ0VaVYGt3w07NZdRii1x+d8kgV//d1KI1SUCCOyqrzwQBLcRn47pOy3BwBp04oGynpr2fEeEf/42JTOBKA1JoSgcCQdIw5Z38Qa5olgVLXqbp2vvR5Vdy0h5jtYKEMYin0zcXAmBevZTHzq50Drow4Loxc8q2s6pXhuLzEcCAwEAAaNlMGMwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBeAwMAYDVR0RBCkwJ4YlaHR0cHM6Ly9zZWN1cmVrZWVwZXIuaW8vc3BpZC9tZXRhZGF0YTARBgNVHSAECjAIMAYGBCtMEAYwDQYJKoZIhvcNAQELBQADggEBAHCfDJ31Ljh8SXIZ3e32Zx3EwgncODtUn1NNwB0WKOJ/e/F0Js3s8rHIglkxQH3m2FDL+iEiAWZ2Em8kXDIDNNyYdpteJ8DZ1SXCYeRDhJJnvQT9If20KndCz//ODf9pqjhmxeQSMSOUwBPWPLjSnaTypTpc+Ju5voT0/y1nQ1JgoHYsryCmoXNej+ajR3LpRLY6VYWEswnEeAu0M4yEbemr3k4VZpMtDfaQsev9/c6NP+PIyQLihe15tK896sTH/s/Gc/gTsfzORvnQJqMQMqt9lifxar6oGI0NycP8ELUwwYDWtZ03xv6qK1TY+R6SOVaj7OLk+weRx0o9SZ7lAPU=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        
+        <md:KeyDescriptor use="encryption">
+             <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEQjCCAyqgAwIBAgIJAI/m4QBI1dsxMA0GCSqGSIb3DQEBCwUAMIGsMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTETMBEGA1UECgwKQWNjZXNzNEFsbDEVMBMGA1UECwwMU2VjdXJlS2VlcGVyMRUwEwYDVQQDDAxTZWN1cmVLZWVwZXIxGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMSAwHgYDVQRTDBdodHRwczovL3NlY3VyZWtlZXBlci5pbzAeFw0yNjAxMTMwODIwNDdaFw0yNzAxMTMwODIwNDdaMIGsMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tZTENMAsGA1UEBwwEUm9tZTETMBEGA1UECgwKQWNjZXNzNEFsbDEVMBMGA1UECwwMU2VjdXJlS2VlcGVyMRUwEwYDVQQDDAxTZWN1cmVLZWVwZXIxGjAYBgNVBGEMEVZBVElULTEyMzQ1Njc4OTAxMSAwHgYDVQRTDBdodHRwczovL3NlY3VyZWtlZXBlci5pbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALWz7H1sv9QVNxUzj5eZMcsBq5z8TIctF39xGQOEML00CnNcbGaiiHXclVdhkeEmUKkRre9w9r2eHJoaVRbl2x2L255L2u5vtzZrwV/Gsjb5y510zpDQ6tHT5Ge7keF5kJoJRE0pjvOY8Kpuq/Xd/G8d5K7HmM0riopwbnhweAv68jMcJ0VaVYGt3w07NZdRii1x+d8kgV//d1KI1SUCCOyqrzwQBLcRn47pOy3BwBp04oGynpr2fEeEf/42JTOBKA1JoSgcCQdIw5Z38Qa5olgVLXqbp2vvR5Vdy0h5jtYKEMYin0zcXAmBevZTHzq50Drow4Loxc8q2s6pXhuLzEcCAwEAAaNlMGMwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBeAwMAYDVR0RBCkwJ4YlaHR0cHM6Ly9zZWN1cmVrZWVwZXIuaW8vc3BpZC9tZXRhZGF0YTARBgNVHSAECjAIMAYGBCtMEAYwDQYJKoZIhvcNAQELBQADggEBAHCfDJ31Ljh8SXIZ3e32Zx3EwgncODtUn1NNwB0WKOJ/e/F0Js3s8rHIglkxQH3m2FDL+iEiAWZ2Em8kXDIDNNyYdpteJ8DZ1SXCYeRDhJJnvQT9If20KndCz//ODf9pqjhmxeQSMSOUwBPWPLjSnaTypTpc+Ju5voT0/y1nQ1JgoHYsryCmoXNej+ajR3LpRLY6VYWEswnEeAu0M4yEbemr3k4VZpMtDfaQsev9/c6NP+PIyQLihe15tK896sTH/s/Gc/gTsfzORvnQJqMQMqt9lifxar6oGI0NycP8ELUwwYDWtZ03xv6qK1TY+R6SOVaj7OLk+weRx0o9SZ7lAPU=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://securekeeper.io/saml2/spid/sls"/>
+        
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://securekeeper.io/saml2/spid/acs" index="0" isDefault="true"/>
+            
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">SecureKeeper</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">SecureKeeper SPID Access</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Access4All</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Access4All</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://securekeeper.io</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>VATIT-12345678901</spid:IPACode> 
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Access4All</md:Company>
+        <md:EmailAddress>admin@access4all.it</md:EmailAddress>
+        <md:TelephoneNumber>+390000000000</md:TelephoneNumber>
+    </md:ContactPerson>
+
+</md:EntityDescriptor>
